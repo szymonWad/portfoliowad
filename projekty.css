@@ -1,0 +1,228 @@
+body {
+    width: 100%;
+    height: 400px;
+    background-color: #252525;
+    position: static;
+    margin: 0px;
+    padding: 14px 16px;
+    text-align: left;
+    
+  }
+
+
+  .lewy {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ff0707;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #ff0606;
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+  }
+    
+
+
+  .lewy:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid #ca7070;
+    box-shadow: 4px 5px 17px -4px #ff0606;
+  
+  }
+
+
+
+  .lewy:before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #ff0d0d;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+  
+  
+.container {
+    background-color: #252525;
+    height: 500px;
+    padding: 10px 10px;
+    justify-content: space-around;
+    display: flex;
+  }
+  
+
+  .container div {
+    margin: 15px;
+    width: 400px;
+  }
+  
+
+  .srodek {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ff0707;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #ff0606;
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .prawy {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ff0707;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #ff0606;
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+  }
+  
+
+  .srodek:hover {
+
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid #ca7070;
+    box-shadow: 4px 5px 17px -4px #ff0606;
+  
+  }
+  
+  .srodek:before {
+    
+      content: "";
+      position: absolute;
+      left: -50px;
+      top: 0;
+      width: 0;
+      height: 100%;
+      background-color: #ff0d0d;
+      transform: skewX(45deg);
+      z-index: -1;
+      transition: width 1000ms;
+    }
+  
+  
+  .prawy:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid #ca7070;
+    box-shadow: 4px 5px 17px -4px #ff0606;
+  
+  }
+  
+  .prawy:before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #ff0d0d;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+
+
+
+
+
+
+.button {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ff0707;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #ff0606;
+    background-color: black;
+    margin: 10px;
+    list-style-type: none;
+  
+  text-decoration: none;
+  overflow: hidden;
+  }
+  
+
+  button:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid #ca7070;
+    box-shadow: 4px 5px 17px -4px #ff0606;
+  }
+
+  button::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #ff0d0d;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+
+
+  button:hover::before {
+    width: 250%;
+  }
+
+
+
+  .container2 {
+    background-color: #252525;
+    height: 120px;
+    padding: 10px 10px;
+    justify-content: space-around;
+    display: flex;
+  }
+  
+
+  .container2 div {
+    margin: 10px;
+    width: 400px;
+  }
+  
+  

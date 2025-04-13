@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.baner {
+   background-image: url(images/top.jpg);
+    height: 350px;
+    text-align: center;
+    background-position-y: -120px;
+}
+
+.lewy {
+    width: 33%;
+    background-color: rgb(175, 72, 89);
+    float: left;
+    height: 1000px;
+    text-align: center;
+}
+
+.srodkowy {
+    width: 33%;
+    background-color: rgb(175, 72, 89);
+    float: left;
+    height: 1000px;
+    text-align: center;
+}
+
+.prawy {
+    width: 34%;
+    background-color: rgb(175, 72, 89);
+    float: left;
+    height: 1000px;
+    text-align: center;
+    align-items: center;
+}
+
+#obrazek {
+    width: 100px;
+    
+}
+
+footer {
+    clear: both;
+    height: 100px;
+}
+
+.sweet { 
+    color: rgb(185, 15, 44);
+    font-size: 90px;
+}
+
+.dream { 
+    color: rgb(241, 96, 120);
+    font-size: 80px;
+}
+
+
+#malina {
+padding: 30px;
+}
+
+#ciastko {
+    Padding: 68px;
+}
+
+
+#kawa {
+    padding: 68px;
+}
+
+
+#malina:hover {
+    size: 100px;
+}
+
+#kaweczka {
+    padding: 30px;
+    position: static;
+}
+
+.dolnakawa {
+    background-color: rgb(199, 155, 104);
+    clear: both;
+    height: 600px;
+    text-align: center;
+}
+
+
+#kawusia {
+    padding: 30px;
+   
+}
+
+
+.dolnamalina {
+    background-color: #D58686;
+    clear: both;
+    height: 600px;
+    text-align: center;
+}
+
+#onas {
+    padding: 65px;
+    
+}
+
+
+#zakres {
+    padding: 120px;
+}
+
+#nas {
+    font-size: 22px;
+}
+
+#uslugi {
+    font-size: 22px;
+}
+
+#kontakt {
+    padding: 120px;
+}
+
+#kontakcior {
+    font-size: 22px;
+}
+
+#menu {
+    padding: 20px;
+}
+
+
+#haslo {
+    padding: 190px;
+}
+
+#toto {
+    padding: 10px;
+}
+
+#malineczka {
+    padding: 20px;
+}
+
+
+#x {
+    font-size: 25px;
+}
+
+#kawy {
+    font-size: 22px;
+}
+
+#lunch {
+    font-size: 22px;
+}
+
+
+.dolciastko {
+    background-color: #745d4f;
+    clear: both;
+    height: 600px;
+    text-align: center;
+}
+
+#ciasteczko {   
+    padding: 30px;
+
+}
+
+
+footer {
+   
+    height: 200px;
+    color: white;
+}
+
+.lewasnie {
+    width: 45%;
+    background-color: rgb(59, 58, 58);
+    float: left;
+    height: 300px;
+    text-align: left;
+    
+}
+
+#pijac {
+    padding: 30px;
+    font-size: 20px;
+}
+
+.dolnie {
+    clear: both;
+    background-color: rgb(59, 58, 58);
+    text-align: center;
+    height: 50px;
+    
+}
+
+.prawosnie {
+    float: left;
+    background-color: rgb(59, 58, 58);
+    width: 55%;
+    height: 300px;
+    text-align: center;
+
+
+}
+
+#kontakcik {
+    padding: 30px;
+    font-size: 20px;
+}
+
+#kont {
+    font-size: 25px;
+}
+
+.formu {
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+.kucharz {
+    width: 150px;
+}
